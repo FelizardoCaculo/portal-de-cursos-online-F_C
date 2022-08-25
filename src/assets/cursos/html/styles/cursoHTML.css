@@ -36,27 +36,28 @@ body {
 
 .header-container {
     width: 90%;
-    height: 200px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-h1 {
+.title-text{
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .indice-container {
     width: 100%;
-    height: 100px;
+    height: 50px;
     margin: 0 auto;
     padding-bottom: 40px;
-
 }
 
 .sub-title {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    color: var(--pink);
 }
 
 .lessons-links {
@@ -68,9 +69,15 @@ h1 {
 }
 
 .lessons {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 5px;
+    border: 2px solid;
+}
+
+.lessons li:hover {
+    background-color: blue;
+    color: var(--pink);
 }
 
 li {
@@ -86,10 +93,9 @@ a {
 }
 
 a:hover {
-    color: var(--pink);
+    color: black;
+    font-weight: bolder;
 }
-
-
 
 @media(max-width:980px) {
     #global-container {

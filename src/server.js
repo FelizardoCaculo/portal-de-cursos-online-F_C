@@ -11,5 +11,5 @@ app.use(router);
 app.use(express.static(`${__dirname}/assets`));
 
 app.listen(process.env.PORT || 5500, () => {
-    console.log('SERVIDOR RODANDO NA PORTA 5500')
+    console.log('SERVIDOR RODANDO!!!')
 });
