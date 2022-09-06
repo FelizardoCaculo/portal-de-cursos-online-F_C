@@ -97,10 +97,37 @@ a:hover {
     font-weight: bolder;
 }
 
-@media(max-width:980px) {
+@media(max-width:768px) {
     #global-container {
         width: 100%;
         margin: 0 auto;
         align-items: center;
+        font-size: 14px;
+    }
+
+    .lessons-links {
+        width: 96%;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    li {
+        list-style: none;
+        width: 96%;
+        margin: 0 auto;
+        line-height: 30px;
     }
 }
+
+
+@media(max-width:400px) {
+    .lessons {
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 5px;
+        border: 2px solid;
+    }
+}
+
+
