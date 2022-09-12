@@ -39,6 +39,7 @@ body {
     max-width: 880px;
     height: 100vh;
     margin: 0 auto;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -46,7 +47,7 @@ body {
 
 header {
     width: 100%;
-    height: 35vh;
+    height: 40vh;
     align-items: center;
 }
 
@@ -54,22 +55,21 @@ header {
     width: 100%;
     margin: 0 auto;
     display: block;
-    flex-wrap: wrap;
-    text-align: right;    
+    flex-wrap: wrap;    
 }
 
-.navbar ul {
+.navbar .menu ul {
     align-items: center;
     list-style: none;
 }
 
-.navbar ul li {
+.navbar .menu ul li {
     text-align: center;
 }
 
 .navbar ul li a {
     font-size: 25px;
-    line-height: 40px;
+    line-height: 35px;
     color: var(--white);
 }
 
@@ -89,21 +89,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;}
-
-.title {
-    color: white;
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: center;
 }
 
 .title h1 {
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0 auto;
     text-align: center;
 }
@@ -116,7 +108,7 @@ main {
 }
 
 main .title:hover {
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
 }
 
 .footer {
@@ -124,7 +116,7 @@ main .title:hover {
     margin: 0 auto;
     text-align: center;
     color: white;
-    margin-top: 20vh;
+    margin-top: 8vh;
     position: relative;
 }
 
