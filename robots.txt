@@ -1,7 +1,7 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
+User-agent: Unnecessarybot
+Disallow: /
 
 User-agent: *
 Allow: /
 
-Sitemap: https://portal-de-cursos-online-fc.herokuapp.com/sitemap.xml
+Sitemap: https://portal-de-cursos-online.herokuapp.com/sitemap.xml
