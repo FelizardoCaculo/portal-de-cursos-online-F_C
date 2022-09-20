@@ -8,4 +8,4 @@ Visit my Website:
 <br>
 https://portal-de-cursos-online-fc.herokuapp.com/
 <br>
-https://portal-de-cursos-online-fc.herokuapp.com/
+https://felizardocaculo.github.io/portal-de-cursos-online-F_C/
