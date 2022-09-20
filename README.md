@@ -4,5 +4,6 @@ Meu primeiro grande projecto pessoal criado do zero para servir de forma gratuit
 My first personal project built from scratch to serve the web devellopers community for free.
 
 
-Visit my Website: https://portal-de-cursos-online-fc.herokuapp.com/
-<br>              https://portal-de-cursos-online-fc.herokuapp.com/
+Visit my Website: 
+https://portal-de-cursos-online-fc.herokuapp.com/
+https://portal-de-cursos-online-fc.herokuapp.com/
