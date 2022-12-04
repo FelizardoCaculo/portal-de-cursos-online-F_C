@@ -9,6 +9,6 @@ router.get('/', (_req, res) => {
 app.use(router);
 app.use(express.static(__dirname + '/src'));
 
-app.listen(process.env.PORT || 5500, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('Server up and running!!!')
 })

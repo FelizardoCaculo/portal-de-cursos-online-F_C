@@ -1,14 +1,12 @@
 FROM node:alpine
 
-WORKDIR /usr/server
+WORKDIR /usr/app
 
 COPY package*.json ./
 
 RUN npm install
 
 COPY . .
-
-COPY source dest
 
 EXPOSE 3000
 

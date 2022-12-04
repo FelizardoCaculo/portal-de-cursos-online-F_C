@@ -1,9 +1,12 @@
+version: "3"
+
 services:
-  frontend:
-    image: portalonline/webapp
+  app:
+    build: .
+    command: npm start
+    container_name: portaldecursosonlinefc-docker
     ports:
-      - "8080:3000"
-    deploy:
-      mode: replicated
-      replicas: 3
-      endpoint_mode: vip
+      - 3000:3000
+    volumes:
+      - /usr/app
+      - /usr/appnode_modules
