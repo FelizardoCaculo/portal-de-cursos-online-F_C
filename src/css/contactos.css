@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
@@ -58,7 +58,7 @@ h1 {
 
 .username {
     font-family: 'Roboto Mono', monospace;
-    color: var(--pink);
+    color: var(--blue);
     opacity: 0.8;
     font-size: 18px;
     font-weight: 400;
@@ -104,6 +104,6 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--pink);
+    color: var(--blue);
     transition-delay: 0.2s;
 }

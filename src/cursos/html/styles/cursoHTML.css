@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
@@ -55,7 +55,7 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .lessons-links {
@@ -75,7 +75,7 @@ body {
 
 .lessons li:hover {
     background-color: blue;
-    color: var(--pink);
+    color: var(--blue);
 }
 
 li {

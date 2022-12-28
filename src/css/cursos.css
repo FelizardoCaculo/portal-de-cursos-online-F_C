@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #280235;
@@ -40,7 +40,7 @@ header .title {
 }
 
 .span {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .main-container {
@@ -79,7 +79,7 @@ h5 {
 }
 
 span {
-    color: var(--pink);
+    color: var(--blue);
     text-align: center;
     justify-content: center;
     align-items: center;

@@ -1,5 +1,5 @@
 :root {
-  --pink: #ff046f;
+  --blue: #0e38de;
   --violet: #c63bfa;
   --white: #ffffff;
   --background-color: #310e3d;
@@ -109,7 +109,7 @@ img {
 
 
 strong {
-  color: var(--pink);
+  color: var(--blue);
 }
 
 

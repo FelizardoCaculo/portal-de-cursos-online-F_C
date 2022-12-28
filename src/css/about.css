@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
@@ -36,7 +36,7 @@ h1 {
 }
 
 span {
-    color: var(--pink);
+    color: var(--blue);
     text-transform: uppercase;
 }
 

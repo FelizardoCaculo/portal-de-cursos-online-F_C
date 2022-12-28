@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
@@ -40,7 +40,7 @@ body {
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 5%;
-    background-color: var(--pink);
+    background-color: var(--blue);
     }
 
 #picture {
