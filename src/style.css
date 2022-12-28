@@ -1,5 +1,5 @@
 :root {
-    --pink: #FF046F;
+    --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
@@ -20,7 +20,7 @@
 }
 
 *::selection {
-    background: var(--pink);
+    background: var(--blue);
     color: #fff;
 }
 
@@ -74,7 +74,7 @@ header {
 
 header .navbar ul li .active,
 header .navbar ul li a:hover {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 header .navbar ul li a:hover {
@@ -103,7 +103,7 @@ main {
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
-    color: var(--pink);
+    color: var(--blue);
 }
 
 main .title:hover {
@@ -131,7 +131,7 @@ main .title:hover {
 }
 
 .footer a:hover {
-    background: var(--pink);
+    background: var(--blue);
     letter-spacing: .5rem;
 }
 
@@ -141,7 +141,7 @@ main .title:hover {
 }
 
 span {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 
