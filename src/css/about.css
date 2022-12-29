@@ -37,7 +37,7 @@ h1 {
 
 span {
     color: var(--blue);
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 p {
