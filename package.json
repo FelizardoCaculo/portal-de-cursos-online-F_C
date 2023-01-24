@@ -2,7 +2,7 @@
   "name": "portal-de-cursos-online-f_c",
   "version": "1.0.0",
   "description": "This is my first personal project, is a website built to help another Web developers like me. giving a place to start their roadmap to the FullStack web deveplopment, just like me. This project will follow my own steps as a self tougth and will be on continuos deveplopment.",
-  "main": "server.js",
+  "main": "main.js",
   "scripts": {
     "start": "node server.js",
     "dev": " nodemon server.js"

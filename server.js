@@ -10,5 +10,5 @@ app.use(router);
 app.use(express.static(__dirname + '/src'));
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log('Server up and running!!!')
+    console.log('Server up and running!!!');
 })

@@ -80,12 +80,14 @@ body {
 
 li {
     list-style: none;
-    width: 350px;
+    width: 100%;
+    min-width: 350px;
     margin: 0 auto;
     line-height: 30px;
 }
 
-a {
+.lessons li a {
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
