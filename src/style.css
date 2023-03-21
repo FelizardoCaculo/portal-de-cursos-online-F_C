@@ -3,7 +3,7 @@
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
-    --background-body: #312f2f;
+    --background-body: #310e3d;
 }
 
 * {
@@ -24,6 +24,19 @@
     color: #fff;
 }
 
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #444;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
 html {
     font-size: 62.5%;
     overflow: hidden;
@@ -34,8 +47,8 @@ body {
 }
 
 #container {
-    width: 80%;
-    max-width: 880px;
+    width: 70%;
+    max-width: 780px;
     height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -44,46 +57,42 @@ body {
     align-items: center;
 }
 
-header {
-    width: 100%;
-    height: 40vh;
+.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
 }
 
-.navbar {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    flex-wrap: wrap;    
+.header .logo {
+    font-size: 2.5rem;
 }
 
-.navbar .menu ul {
-    align-items: center;
-    list-style: none;
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 2rem;
 }
 
-.navbar .menu ul li {
-    text-align: center;
+.header .navbar a:hover {
+    background: var(--blue);
+    padding: .2rem;
 }
 
-.navbar ul li a {
-    font-size: 25px;
-    line-height: 35px;
-    color: var(--white);
-}
-
-header .navbar ul li .active,
-header .navbar ul li a:hover {
-    color: var(--blue);
-}
-
-header .navbar ul li a:hover {
-    background: #fff;
-    letter-spacing: .5rem;
+#menu-bars {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
 }
 
 main {
     width: 100%;
+    padding-top: 25rem;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -145,88 +154,69 @@ span {
 }
 
 
-/* media queries */
 
-@media(max-width: 600px) {
+
+
+
+/* 👇👇👇👇👇  media queries 👇👇👇👇👇 */
+@media (max-width: 991px) {
 
     html {
         font-size: 55%;
-        overflow: hidden;
-        width: 100%;
     }
 
-    #container {
-        width: 100%;
-        height: 100vh;
-        margin: 0 auto;
+    .header {
+        padding: 1.5rem 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    #menu-bars {
+        display: initial;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        border-top: .1rem solid #222;
+        background: var(--background-color);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0 );
+    }
+
+    .header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+    .header .navbar a {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        background: var(--background-color);
+        border-radius: .5rem;
+        padding: 1.3rem;
+        margin: 1.3rem;
+        font-size: 2rem;
     }
 
-    .navbar ul li a {
-        font-size: 25px;
-        line-height: 35px;
+    .home .content h3 {
+        font-size: 4rem;
     }
 
-    .title h1 {
-        font-size: 30px;
-        text-align: center;
-        position: static;
-    }
-
-    .footer {
-        font-size: 1em;
-        margin-top: 25vh;
-    }
 }
 
-@media(max-width:440px) {
+/*  👇👇👇👇👇 media queries 👇👇👇👇👇 */
+@media (max-width: 450px) {
 
-    header .navbar{
-        position:fixed;
-        margin-bottom: 100px;
+    html {
+        font-size: 50%;
     }
 
-    main .title {
-        color: white;
-        font-size: 25px;
+    .home .home-slider .swiper-slide {
+        width: 27rem;
     }
 
-
-    .footer .icons {
-        margin-bottom: 3%;
-    }
-    
-    .footer {
-        font-size: 14px;
-    }
-
-    .credit {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-}
-
-@media(max-width:240px) {
-
-    header .navbar{
-        position:fixed;
-    }
-
-    .title {
-        text-align: center;
-        font-size: 1rem;
-    }
-
-
-    .footer {
-        text-align: center;
-        color: white;
-        display: block;
-    }
-
-    .footer a {
-        display: block;
-    }
 }
