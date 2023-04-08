@@ -2,8 +2,8 @@
     --blue: #0e38de;
     --violet: #C63BFA;
     --white: #ffffff;
-    --background-color: #280235;
-    --background-body: #312f2f;
+    --background-color: #310e3d;
+    --background-body: #310e3d;
 }
 
 * {
@@ -31,16 +31,18 @@ body {
 
 header {
     width: 100%;
+    margin: 5rem auto;
 }
 
 header .title {
     text-transform: capitalize;
     text-align: center;
-    padding: 30px;
 }
 
-.span {
-    color: var(--blue);
+.cursos span {
+    color: var(--white);
+    padding-bottom: .1rem;
+    font-weight: lighter;
 }
 
 .main-container {
@@ -50,7 +52,9 @@ header .title {
 
 .main-content {
     width: 100%;
+    padding-block: 3rem;
     height: fit-content;
+    margin-bottom: 2rem;
 }
 
 h5 {

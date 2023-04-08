@@ -3,9 +3,8 @@
     --violet: #C63BFA;
     --white: #ffffff;
     --background-color: #310e3d;
-    --background-body: #312f2f;
+    --background-body: #310e3d;
 }
-
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -16,13 +15,11 @@
     box-sizing: border-box;
     color: var(--white);
 }
-
 body {
     background-color: var(--background-body);
     margin: 0;
     padding: 0;
 }
-
 #global-container {
     width: 70%;
     max-width: 980px;
@@ -31,33 +28,27 @@ body {
     background-color: var(--background-color);
     display: block;
 }
-
 .header-container {
-    width: 90%;
-    height: 120px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
 }
-
 .title-text{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 5rem;
 }
-
 .indice-container {
     width: 100%;
-    height: 50px;
     margin: 0 auto;
     padding-bottom: 40px;
 }
-
 .sub-title {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     color: var(--blue);
+    padding: 2rem;
 }
-
 .lessons-links {
     width: 500px auto;
     margin: 0 auto;
@@ -65,53 +56,44 @@ body {
     align-items: center;
     justify-items: center;
 }
-
 .lessons {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 5px;
     border: 2px solid;
+    border-radius: 5px;
 }
-
 .lessons li:hover {
-    background-color: blue;
-    color: var(--blue);
+    color: var(--white);
 }
-
 li {
     list-style: none;
     width: 100%;
-    min-width: 350px;
     margin: 0 auto;
-    line-height: 30px;
+    font-weight: lighter;
 }
-
 .lessons li a {
     width: 100%;
     text-align: center;
     margin: 0 auto;
 }
-
 a:hover {
-    color: black;
     font-weight: bolder;
 }
-
 @media(max-width:768px) {
     #global-container {
         width: 100%;
+        padding: 1rem;
         margin: 0 auto;
         align-items: center;
         font-size: 14px;
     }
-
     .lessons-links {
-        width: 96%;
+        width: 100%;
         text-align: center;
         align-items: center;
         justify-items: center;
     }
-
     li {
         list-style: none;
         width: 96%;
@@ -119,15 +101,21 @@ a:hover {
         line-height: 30px;
     }
 }
-
-
-@media(max-width:400px) {
+@media(max-width:580px) {
     .lessons {
-        width: 98%;
+        width: 100%;
+        padding: .1rem;
         margin: 0 auto;
         margin-top: 5px;
         border: 2px solid;
     }
 }
-
-
+@media(max-width:580px) {
+    .lessons {
+        width: 100%;
+        padding: .1rem;
+        margin: 0 auto;
+        margin-top: 5px;
+        border: 2px solid;
+    }
+}

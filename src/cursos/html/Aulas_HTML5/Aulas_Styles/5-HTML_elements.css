@@ -1,9 +1,9 @@
 :root {
   --blue: #0e38de;
-  --violet: #c63bfa;
+  --violet: #C63BFA;
   --white: #ffffff;
   --background-color: #310e3d;
-  --background-body: #312f2f;
+  --background-body: #310e3d;
 }
 
 * {
