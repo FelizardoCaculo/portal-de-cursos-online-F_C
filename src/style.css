@@ -70,7 +70,7 @@ body {
     padding: .2rem;
 }
 #menu-bars {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
     cursor: pointer;
     display: none;
@@ -112,20 +112,21 @@ main .title:hover {
     margin-bottom: 20px;
 }
 .footer a {
-    color: white;
+    color: var(--blue);
     font-size: 16px;
     margin-bottom: 20px;
     margin-left: 2rem;
 }
 .footer a:hover {
     background: var(--blue);
+    color: var(--white);
     letter-spacing: .5rem;
 }
-.credit {
+footer .credit {
     text-align: center;
     font-size: 16px;
 }
-span {
+footer.credit a {
     color: var(--blue);
 }
 /* 👇👇👇👇👇  media queries 👇👇👇👇👇 */
