@@ -105,3 +105,13 @@ dist
 
 #Dockerignore
 .dockerignore
+
+
+
+
+
+#Comando para actualizar o container:
+# ==> sudo docker ps ==> to list all containers and get the ID
+# ==> sudo docker stop [container ID]
+# ==> sudo docker rm [container ID]
+# ==> sudo docker-compose up --build -d

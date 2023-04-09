@@ -10,5 +10,4 @@ services:
     volumes:
       - /usr/app
       - /usr/appnode_modules
-    restart: always
-    
+    restart: always  
