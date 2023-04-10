@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const router = express.Router();
 const cache = require('memory-cache');
-
 router.get('/', (_req, res) => {
     res.sendFile(__dirname + '/index.html');
 })
