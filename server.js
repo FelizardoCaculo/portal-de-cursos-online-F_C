@@ -9,13 +9,13 @@ router.get('/', (_req, res) => {
 app.use(router);
 app.use(express.static(__dirname + '/src'));
 app.use((req, res, next) => {
-    const key = '__express__' + req.originalUrl || req.url;
+    const key = '__express__' + req.originalUrl || req.url && __dirname + '/src';
     const cachedBody = cache.get(key);
     if(cachedBody) {
         res.send(cachedBody);
         return
     } else {
-        res.sendResponse = res.sendFile(__dirname + '/index.html');
+        res.sendResponse = res.sendFile(__dirname + '/index.html', __dirname + '/src');
         res.sendResponse = (body) => {
             cache.put(key, body);
             res.sendResponse(body);
